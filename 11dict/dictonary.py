@@ -55,6 +55,16 @@ print("Values:", student.values())
 print("Length:", len(student))
 print("Copy:", student.copy())
 
+
 # Summary
 # Dictionary is useful when you want to store data by name instead of index.
 # Example: phonebook, student records, config settings, etc.
+
+# Dictionary methods-->
+# - keys(): Returns a list of all keys
+# - values(): Returns a list of all values
+# - items(): Returns a list of key-value pairs
+# - get(key): Returns the value for the specified key
+# - pop(key): Removes the key-value pair for the specified key
+# - clear(): Removes all key-value pairs
+# - copy(): Returns a copy of the dictionary
